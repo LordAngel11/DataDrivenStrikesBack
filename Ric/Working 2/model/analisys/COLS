@@ -1,0 +1,76 @@
+ALL_COLS = [
+       'Fecha entrega del Informe', 
+       'Tipo de vía', 
+       'Piso', 
+       'Departamento',
+       'Provincia', 
+       'Distrito', 
+       'Número de estacionamiento', 
+       'Depósitos',
+       'Latitud (Decimal)', 
+       'Longitud (Decimal)', 
+       'Categoría del bien',
+       'Posición', 
+       'Número de frentes', 
+       'Edad', 
+       'Elevador',
+       'Estado de conservación', 
+       'Método Representado', 
+       'Área Terreno',
+       'Área Construcción', 
+       'Valor comercial (USD)', 
+       'ranva'
+]
+
+NUMERICAL_COLS = [
+       'Fecha entrega del Informe', 
+       'Tipo de vía', 
+       'Latitud (Decimal)', 
+       'Longitud (Decimal)',
+       'Número de frentes',
+       'Edad', #aug
+       'Elevador', 
+       'Área Terreno',
+       'Área Construcción',
+       'Valor comercial (USD)',
+       'ranva'
+]
+
+STRING_COLS = [
+       'Piso', #irrelevant
+       'Departamento', 
+       'Provincia',  
+       'Distrito',  
+       'Número de estacionamiento', #num
+       'Depósitos', #num
+       'Categoría del bien', 
+       'Posición', #irrelevant
+       'Estado de conservación', 
+       'Método Representado' #irrelevant
+]
+
+NUM_COLS = [
+       'Fecha entrega del Informe', 
+       'Tipo de vía',
+       'Número de estacionamiento', #aug
+       'Depósitos', #aug
+       'Latitud (Decimal)', 
+       'Longitud (Decimal)',
+       'Número de frentes',
+       'Edad', #aug
+       'Elevador', 
+       'Área Terreno', #aug
+       'Área Construcción', #aug
+       'Valor comercial (USD)',
+]
+
+CAT_COLS = [
+       'Piso', #irrelevant
+       'Departamento', 
+       'Provincia',  
+       'Distrito',  
+       'Categoría del bien', 
+       'Posición', #irrelevant
+       'Estado de conservación', 
+       'Método Representado' #irrelevant
+]

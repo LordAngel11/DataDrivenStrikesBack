@@ -1,0 +1,37 @@
+SIMPLE_COLUMNS = [
+    'Fecha',
+    'TipoDeVia',
+    'Piso',
+    'Departamento',
+    'Provincia',
+    'Distrito',
+    'Estacionamiento', # 
+    'Depositos', #
+    'Lat',
+    'Lon',
+    'Categoria', #
+    'Posicion',
+    'Frentes',
+    'Edad',
+    'Elevador',
+    'Conservacion', #
+    'Metodo', 
+    'AreaTerreno', 
+    'AreaConstruccion', #
+    'Valorcomercial', #
+]
+
+UNINTERESTING = [
+    'TipoDeVia',
+    'Piso',
+    'Departamento',
+    'Provincia',
+    'Depositos',
+    'Lat',
+    'Lon',
+    'Posicion',
+    'Frentes',
+    'Elevador',
+    'Metodo', 
+    'AreaTerreno', 
+]
